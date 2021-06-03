@@ -19,4 +19,11 @@ java -jar springboot-0.0.1-SNAPSHOT.jar
 Comando responsavel por exebir todo o conteudo do nosso jar
 jar tf springboot-0.0.1-SNAPSHOT.jar | less
 
+Alterando o empacotamento para war
+<packaging>war</packaging>
+
+Para adicionar o projeto ao tomcat basta colocar o .war que se encontra na pasta
+target dentro do webapps e subir o tomcat.
+bin/./starup.sh
+
 FatJar / UberJar
