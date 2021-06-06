@@ -28,4 +28,12 @@ bin/./starup.sh
 
 FatJar / UberJar
 
-*Spring Boot Profiles
+* Spring Boot Profiles
+
+* Arquivos .yml
+
+Argumentos passados por meio da linha de comando tem prioridade sobre o as config presentes nos arquivos .properties/.yml
+
+mvn spring-boot:run -Dserver.port=8085
+
+* Srping Boot e variáveis de ambiente com a anotação @Value({NOME_VARIAVEL})
