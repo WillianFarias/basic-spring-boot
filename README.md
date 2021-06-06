@@ -27,3 +27,5 @@ target dentro do webapps e subir o tomcat.
 bin/./starup.sh
 
 FatJar / UberJar
+
+*Spring Boot Profiles
