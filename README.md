@@ -11,29 +11,45 @@ Prática de conceitos basicos do Spring-Boot.
 Clone
 ```bash
 $ git clone https://github.com/WillianFarias/basic-spring-boot.git
+```
 
-# Execucao
+Execucao
+```bash
 mvn spring-boot:run
+```
 
-Execucao direta unico java-jar
-mvn package && java -jar target/spring-boot-example-0.1.0.jar
+Execucao direta java-jar
+```bash
+mvn package
+java -jar target/spring-boot-example-0.1.0.jar
+```
 
 Limpar o projeto e empacotar o mesmo
+```bash
 mvn clean package
+```
 
 Executar o jar do projeto (gerado por padrao na pasta target)
+```bash
 java -jar springboot-0.0.1-SNAPSHOT.jar
+```
 
 Comando responsavel por exebir todo o conteudo do nosso jar
+```bash
 jar tf springboot-0.0.1-SNAPSHOT.jar | less
+```
 
 Alterando o empacotamento para war
+```bash
 <packaging>war</packaging>
+```
 
 Para adicionar o projeto ao tomcat basta colocar o .war que se encontra na pasta
 target dentro do webapps e subir o tomcat.
+```bash
 bin/./starup.sh
-
+```
+#### Demais temas que foram abordados durante o desenvolvimento
 FatJar / UberJar
 
 * Spring Boot Profiles
