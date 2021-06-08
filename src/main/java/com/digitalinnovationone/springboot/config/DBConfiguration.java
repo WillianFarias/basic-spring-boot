@@ -32,6 +32,8 @@ public class DBConfiguration {
     return "DB Connection to H2_TEST - Test instance";
   }
 
+  @Profile("prod")
+  @Bean
   public String productionDatabaseConnection(){
     System.out.println("DB connection for Production - MySQL");
     System.out.println(driverClassName);

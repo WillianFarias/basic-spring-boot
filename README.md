@@ -1,8 +1,16 @@
-# basic-spring-boot
+# Basic Spring-Boot
+Prática de conceitos basicos do Spring-Boot.
 
 # Técnologias
-Java 8 ou superior
-Maven 3.5.2 ou superior
+- [Java](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+- [Maven](https://maven.apache.org/)
+- [Lombok](https://projectlombok.org/)
+
+## Uso
+
+Clone
+```bash
+$ git clone https://github.com/WillianFarias/basic-spring-boot.git
 
 # Execucao
 mvn spring-boot:run
